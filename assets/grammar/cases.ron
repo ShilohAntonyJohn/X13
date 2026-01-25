@@ -1,0 +1,152 @@
+{
+    "Mianownik (Nominative)": (
+        description: "The subject. Answers 'Kto? Co?' (Who? What?).",
+        genders: {
+            "Masculine (All)": (
+                noun_suffix: "-(consonant)",
+                adj_suffix: "-y, -i",
+                pronoun: "On / Ten",
+            ),
+            "Feminine": (
+                noun_suffix: "-a",
+                adj_suffix: "-a",
+                pronoun: "Ona / Ta",
+            ),
+            "Neuter": (
+                noun_suffix: "-o, -e, -ę",
+                adj_suffix: "-e",
+                pronoun: "Ono / To",
+            ),
+        },
+    ),
+    "Dopełniacz (Genitive)": (
+        description: "Possession or Negation. Answers 'Kogo? Czego?'",
+        genders: {
+            "Masculine (Personal/Animate)": (
+                noun_suffix: "-a",
+                adj_suffix: "-ego",
+                pronoun: "Jego / Tego",
+            ),
+            "Masculine (Inanimate)": (
+                noun_suffix: "-u (usually), -a (parts of body/tools)",
+                adj_suffix: "-ego",
+                pronoun: "Jego / Tego",
+            ),
+            "Feminine": (
+                noun_suffix: "-y, -i",
+                adj_suffix: "-ej",
+                pronoun: "Jej / Tej",
+            ),
+            "Neuter": (
+                noun_suffix: "-a",
+                adj_suffix: "-ego",
+                pronoun: "Jego / Tego",
+            ),
+        },
+    ),
+    "Celownik (Dative)": (
+        description: "Recipient of action. Answers 'Komu? Czemu?'",
+        genders: {
+            "Masculine (All)": (
+                noun_suffix: "-owi, -u",
+                adj_suffix: "-emu",
+                pronoun: "Jemu / Temu",
+            ),
+            "Feminine": (
+                noun_suffix: "-ie, -y, -i",
+                adj_suffix: "-ej",
+                pronoun: "Jej / Tej",
+            ),
+            "Neuter": (
+                noun_suffix: "-u",
+                adj_suffix: "-emu",
+                pronoun: "Jemu / Temu",
+            ),
+        },
+    ),
+    "Biernik (Accusative)": (
+        description: "Direct Object. Answers 'Kogo? Co?'",
+        genders: {
+            "Masculine (Personal/Animate)": (
+                noun_suffix: "-a (Matches Genitive)",
+                adj_suffix: "-ego",
+                pronoun: "Go / Tego",
+            ),
+            "Masculine (Inanimate)": (
+                noun_suffix: "-(consonant) (Matches Nominative)",
+                adj_suffix: "-y, -i",
+                pronoun: "Go / To",
+            ),
+            "Feminine": (
+                noun_suffix: "-ę",
+                adj_suffix: "-ą",
+                pronoun: "Ją / Tę",
+            ),
+            "Neuter": (
+                noun_suffix: "-o, -e",
+                adj_suffix: "-e",
+                pronoun: "Je / To",
+            ),
+        },
+    ),
+    "Narzędnik (Instrumental)": (
+        description: "Means/Tool or Profession. Answers 'Z kim? Z czym?'",
+        genders: {
+            "Masculine (All)": (
+                noun_suffix: "-em",
+                adj_suffix: "-ym, -im",
+                pronoun: "Nim / Tym",
+            ),
+            "Feminine": (
+                noun_suffix: "-ą",
+                adj_suffix: "-ą",
+                pronoun: "Nią / Tą",
+            ),
+            "Neuter": (
+                noun_suffix: "-em",
+                adj_suffix: "-ym, -im",
+                pronoun: "Nim / Tym",
+            ),
+        },
+    ),
+    "Miejscownik (Locative)": (
+        description: "Location/Topic. Answers 'O kim? O czym?'",
+        genders: {
+            "Masculine (All)": (
+                noun_suffix: "-e, -u",
+                adj_suffix: "-ym, -im",
+                pronoun: "Nim / Tym",
+            ),
+            "Feminine": (
+                noun_suffix: "-ie, -y, -i",
+                adj_suffix: "-ej",
+                pronoun: "Niej / Tej",
+            ),
+            "Neuter": (
+                noun_suffix: "-e, -u",
+                adj_suffix: "-ym, -im",
+                pronoun: "Nim / Tym",
+            ),
+        },
+    ),
+    "Wołacz (Vocative)": (
+        description: "Direct address/Calling. Answers 'O!'",
+        genders: {
+            "Masculine (All)": (
+                noun_suffix: "-ie, -u",
+                adj_suffix: "-y, -i",
+                pronoun: "Ty!",
+            ),
+            "Feminine": (
+                noun_suffix: "-o, -u, -i",
+                adj_suffix: "-a",
+                pronoun: "Ty!",
+            ),
+            "Neuter": (
+                noun_suffix: "-o, -e",
+                adj_suffix: "-e",
+                pronoun: "Ty!",
+            ),
+        },
+    ),
+}

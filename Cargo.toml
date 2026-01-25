@@ -1,0 +1,37 @@
+[package]
+name = "X13"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Using the latest stable version
+bevy = { version = "0.18", features = ["wav"] } # "dynamic_linking"
+# Useful for your "script loading" idea
+serde = { version = "1.0", features = ["derive"] }
+bevy_common_assets = { version="0.15", features = ["ron"] }
+ron = "0.12.0"
+rand = "0.9.2"
+
+# --- OPTIMIZATION SECTION ---
+# This makes your game run at 60fps even in debug mode
+[profile.dev]
+opt-level = 1
+
+# This makes Bevy itself compile with full optimization 
+# so the engine doesn't slow down your dev work
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 3        # Maximum speed
+lto = "thin"         # Link Time Optimization (smaller, faster binary)
+codegen-units = 1    # Better optimizations (but slower build time)
+strip = "symbols"
+
+[package.metadata.bundle]
+name = "X13"
+identifier = "com.shilohnova.x13"
+icon = ["assets/icons/icon.png"]
+resources = ["assets"] # This includes your Bevy assets folder in the bundle
+copyright = "Copyright © 2026 Shiloh Antony John"
+category = "Game" # Or "Developer Tool", etc.
