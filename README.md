@@ -8,6 +8,8 @@ To run V13
 
 For Fedora:
 
+$ sudo dnf install python3-pip
+
 $ sudo dnf install python3-tkinter python3-devel
 
 $ pip install --upgrade pip
