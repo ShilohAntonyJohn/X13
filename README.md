@@ -28,7 +28,7 @@ $ ./X13
 
 For Windows
 
-Download X13_and_V13_Wondows from https://github.com/ShilohAntonyJohn/X13/releases
+Download X13_and_V13_Windows from https://github.com/ShilohAntonyJohn/X13/releases
 
 Install python, pygame and customtkinter
 
